@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTabDemo.HomePage"
+             Title="Home"
+             IconImageSource="home.png"
+             BackgroundColor="Coral">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <Frame>
+                <Label Text="Home te da la bienvenida" />
+                
+            </Frame>
+            <Label Text="Casa con diseño minimalista"
+                   HorizontalOptions="Center"/>
+            <Image  WidthRequest="200" Source="moda.jpg"/>
+            <Button Text="Mas informacion" Clicked="Button_Clicked" BackgroundColor="Aqua"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

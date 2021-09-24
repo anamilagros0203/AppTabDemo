@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTabDemo.UsersPage"
+             Title="Users"
+             IconImageSource="user.png"
+             BackgroundColor="Aquamarine">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Moccasin" Padding="10" VerticalOptions="Center">
+                <Label HorizontalTextAlignment="Center"
+                   Text="Usuarios" FontSize="30" TextColor="Black"
+                   FontAttributes="Bold"/>
+            </Frame>
+            <Label HorizontalTextAlignment="Center"
+                   Text="paolo@123.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="alexander@123.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="chiroque@123.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="moloche@123.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="derek@678.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="adrian@678.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Label HorizontalTextAlignment="Center"
+                   Text="patricia@678.com" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

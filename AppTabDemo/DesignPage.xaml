@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTabDemo.DesignPage"
+             Title="Design"
+             IconImageSource="favourite.png"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout >
+            <Frame BackgroundColor="Moccasin" Padding="10" VerticalOptions="Center">
+                <Label HorizontalTextAlignment="Center"
+                   Text="Mas diseños" FontSize="30" TextColor="Black"
+                   FontAttributes="Bold"/>
+            </Frame>
+            <Label HorizontalTextAlignment="Center"
+                   Text="Diseño industrial" FontSize="25"
+                   TextColor="Black"
+                   FontAttributes="Bold" Margin="15"/>
+            <Image WidthRequest="200" Source="indrustrial.jpg" Margin="10"/>
+            <Button Text="Mas informacion" Clicked="Button_Clicked" BackgroundColor="Aqua"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
